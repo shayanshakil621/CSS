@@ -10,38 +10,84 @@
             background-color: rgb(0, 136, 247);
 
         }   
-               
+
+        .main{
+            
+            margin: 200px 200px 200px 400px;
+            /* border: 1px solid black; */
+            width: 500px;
+            height: 500px;
+            padding-top: 50px;
+        }
+        
        
 
-        #forrm{
-            display: inline-block;
-            
-
-            height: 5000px;
-            width: 100%;
+        .container > h1{
+           
+            text-align: center;
+            color: white;
             
         }
 
-    
-        .formodify input[type="text"] {
-            margin:0px 0px 10px 400px; 
-            border: none;
+         .container {
+            /* border: 5px solid black; */
+            width:300px ;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 50px;
+         } 
+         
+        .container>button{
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+            width: 330px;
+            background-color: rgb(46, 44, 44);
+            color: white;
             border-radius: 50px;
-            width: 200px;
-            height: 20px;
-            padding:10px 5px 10px 10px;
-        
+            margin-top: 15px;
+
+
         }
 
-             
-      
+        .container>input{
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+            width: 300px;
+            border: none;
+            
+            border-radius: 50px;
+            margin-bottom: 7px;
+            
+            padding-left:25px ;
 
-       
+        }
 
-        
-        
+        .container> a{
+            display: block;
+            margin: 10px 0px 0px 70px ;
+            color: white;
 
-        
+        }
+
+        .circleimg{
+            width: 120px;
+            height: 120px;
+            background-color: white;
+            border-radius: 100%;
+            margin: auto;
+        }
+
+        .circleimg > img{
+            display: block;
+             width: 85%;
+            height: 85%;
+            border-radius: 100%;
+            margin: auto;
+        }
+
+
          
 
            
@@ -49,18 +95,38 @@
     </style>
 </head>
 <body>
-   
- 
-    <div id="forrm">
-    <form action="" class="formodify">
-        <label for=""></label>
-        <input type="text" value="" placeholder="Username"><br>
-       
 
-    </form>
-    <button>login</button>
+    <div class="main">
+        <div class="circleimg">
+            <img src="i.jpg" alt="">
+        </div>
+            
+
+        <form action="" >       
+            <div class="container">
+
+                
+                 <h1>John Doe</h1> 
+        
+        <input type="text" value="" placeholder="Username">
+        <input type="password" value="" placeholder="Password">
+          <button>login</button>
+          <a href="Forgot Username / Password">Forgot Username / Password</a>
+
+        
+
+        </div>
+        </form>
+        
+      
+
+      
     </div>
+    
 
 
 </body>
 </html>
+
+
+
